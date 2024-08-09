@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pac-Man Extended</title>
+    <style>
+        body { margin: 0; overflow: hidden; }
+        canvas { background-color: black; display: block; margin: auto; }
+        #score { color: white; text-align: center; font-size: 24px; margin-top: 10px; }
+        body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; /* Fundo escuro para contraste */
+}
+
+canvas {
+    border: 2px solid #fff; /* Borda branca para destacar o canvas */
+    background-color: black;
+    display: block;
+}
+
+#score {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <div id="score">Score: 0</div>
+    <canvas id="gameCanvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
